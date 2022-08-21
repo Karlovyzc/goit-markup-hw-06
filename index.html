@@ -358,7 +358,7 @@
           </li>
         </ul>
       </div>
-      <div class="footer-social">
+      <div class="soc-footer">
         <h3 class="footer-invite">приєднуйтесь</h3>
       <ul class="social-line list-non">
               <li class="social-line-footer">
@@ -387,21 +387,20 @@
                 </a></li>
             </ul>
     </div>
-    </div>
 
-    <form action="#">
+          <form action="#">
       <label>
-      <div class="user-email">
-        <p class="spam">Підпишіться на розсилку</p>
+        <p class="spam">Підпишіться на розсилку</p>       
       <div class="footer-button">
       <input class="input-footer" type="email" name="user-email" id="user-email" required placeholder="E-mail">     
         <button type="submit" class="button-sign">Підписатися<svg class="footer-svg"  height="24" width="24">
                     <use href="./SVG/symbol-defs.svg#icon-icon-footer"></use>
                   </svg></button>   
       </div>
-      </div>
     </label>
     </form>
+
+    </div>
       </address>
     </footer>
                                                   <!-- Модельне вікно -->
@@ -442,11 +441,14 @@
             <span>Коментар</span> 
             <textarea name="user-comments" class="input-modal-komment" required placeholder="Введіть текст"></textarea>
           </label>
+          
+          <div>
+            <input type="checkbox" name="consent" id="consent" class="input-checkbox visually-hidden" value="true"> 
+            <label class="checksbox-text" for="consent"><span><svg class="checkbox-vector" width="11" height="8">
+              <use href="./SVG/symbol-defs.svg#icon-Vector"></use>
+            </svg></span> Погоджуюся з розсилкою та приймаю <p class="checksbox-text-back">Умови Договору</p></label>
+          </div>
 
-            <div class="checkbox-div">
-            <input class="input-checkbox" type="checkbox" name="size" value="agree" id="agree" required>
-          <label class="checksbox-text" for="agree">Погоджуюся з розсилкою та приймаю<span class="checksbox-text-back"> Умови договору</span></label>        
-        </div>
           <button type="submit" class="modal-button">Відправити</button>                    
         </form>
       </div>
