@@ -870,8 +870,8 @@ body {
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  margin-bottom: 18px;
   padding: 16px 12px;
+  margin-bottom: 20px;
   resize: none;
   outline: none;
 }
@@ -890,7 +890,7 @@ body {
 
 .modal-button {
   display: block;
-  margin-top: 32px;
+  margin-top: 30px;
   margin-right: auto;
   margin-left: auto;
   border: transparent;
@@ -929,7 +929,8 @@ body {
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: #2196f3;
-  margin-left: 3px;
+  margin: 0;
+  margin-left: 4px;
 }
 
 .icomodal-svg {
@@ -940,6 +941,7 @@ body {
 
 .checksbox-text {
   display: flex;
+  justify-content: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -947,7 +949,6 @@ body {
   color: #757575;
   cursor: pointer;
   align-items: center;
-  margin-right: 3px;
 }
 
 .checksbox-text span {
