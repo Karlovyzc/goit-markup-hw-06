@@ -442,11 +442,11 @@
             <textarea name="user-comments" class="input-modal-komment" required placeholder="Введіть текст"></textarea>
           </label>
           
-          <div>
-            <input type="checkbox" name="consent" id="consent" class="input-checkbox visually-hidden" value="true"> 
-            <label class="checksbox-text" for="consent"><span><svg class="checkbox-vecto" width="11" height="8">
+          <div class="modal-consent">
+            <input type="checkbox" name="connection" id="connection" value="true" class="modal-consent__input visually-hidden ">
+            <label class="modal-consent__label"  for="connection"><span class="modal-consent-svg"><svg width="11" height="8">
               <use href="./SVG/symbol-defs.svg#icon-Vector"></use>
-            </svg></span> Погоджуюся з розсилкою та приймаю <p class="checksbox-text-back">Умови Договору</p></label>
+            </svg></span> Погоджуюся з розсилкою та приймаю <p class="modal-consent__p">Умови договору</p></label>
           </div>
 
           <button type="submit" class="modal-button">Відправити</button>                    
